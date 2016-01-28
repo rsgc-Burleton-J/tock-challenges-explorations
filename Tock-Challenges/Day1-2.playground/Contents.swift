@@ -3,3 +3,8 @@
 import Cocoa
 
 var str = "Hello, playground"
+
+var numberOfH:[String] = []
+var numberOfS:[String] = []
+
+
