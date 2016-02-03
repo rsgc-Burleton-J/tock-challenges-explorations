@@ -2,18 +2,18 @@
 
 import Cocoa
 
-let inputMonth = 3
-let inputDay = 1
+let inputMonth = 1
+let inputDay = 18
 
-let Month = 2
+let month = 2
 let day = 18
 var str = "D"
 
-if (inputMonth > Month || inputMonth == Month && inputDay > day){
+if (inputMonth > month || inputMonth == month && inputDay > day){
     str = "After"
 }
-else if (inputMonth == Month && inputDay == day){
-    str = "Special"
+else if (inputMonth == month && inputDay == day){
+    str = "Special (it's pretty neat)"
 }
 else {
     str = "Before"
